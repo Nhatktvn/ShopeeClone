@@ -15,7 +15,7 @@ export default function RegisterHeader({ titleHeader }: Props) {
               </g>
             </svg>
           </Link>
-          <h2 className='text-xl lg:text-2xl px-4'>{titleHeader}</h2>
+          <h2 className='text-xl lg:text-2xl px-4'>{props.data}</h2>
         </nav>
         <Link className='text-sm text-orange' to='/'>
           Bạn cần giúp đỡ?

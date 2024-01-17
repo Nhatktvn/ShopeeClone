@@ -21,7 +21,7 @@ export default function useRouteElements() {
     {
       path: '/register',
       element: (
-        <RegisterLayout titileHeader='Đăng ký'>
+        <RegisterLayout>
           <Register />
         </RegisterLayout>
       )

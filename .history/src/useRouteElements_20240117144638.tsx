@@ -13,7 +13,7 @@ export default function useRouteElements() {
     {
       path: '/login',
       element: (
-        <RegisterLayout titileHeader='Đăng nhập'>
+        <RegisterLayout>
           <Login />
         </RegisterLayout>
       )
@@ -21,7 +21,7 @@ export default function useRouteElements() {
     {
       path: '/register',
       element: (
-        <RegisterLayout titileHeader='Đăng ký'>
+        <RegisterLayout>
           <Register />
         </RegisterLayout>
       )

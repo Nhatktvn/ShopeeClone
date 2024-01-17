@@ -3,12 +3,12 @@ import RegisterHeader from '../../components/RegisterHeader'
 
 interface Props {
   children?: React.ReactNode
-  titileHeader: string
+  <title></title>
 }
-export default function RegisterLayout({ children, titileHeader }: Props) {
+export default function RegisterLayout({ children }: Props) {
   return (
     <div>
-      <RegisterHeader titleHeader={titileHeader} />
+      <RegisterHeader />
       {children}
       <Footer />
     </div>
